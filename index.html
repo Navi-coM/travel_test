@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--for IE-->
+    <link type="image/x-icon" rel="shortcut icon" href="./img/desctop/favicon.ico">
+    <link type="image/png" sizes="16x16" rel="icon" href="./img/desctop/favicon.png">
+    <meta name="description"
+        content="Safe travel anywhere. Search places, simply select, book and enjoy your awesome vacation!">
+    <script src="https://kit.fontawesome.com/0427e4904b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Travel More</title>
+</head>
+
+<body>
+    <header class="header block">
+        <div class="header__logo logo">
+            <h1 class="logo__title logo__title--header">Travel Company</h1>
+            <div class="logo__slogan logo__slogan--header">
+                Safe travel anywhere
+            </div>
+        </div>
+        <form action="GET" class="header__search search">
+            <label class="search__lable" for="search"></label>
+            <input class="search__input" pattern="^[A-Za-z]$" type="search" name="search" required id="search"
+                placeholder="Search Your Travel Destination">
+            <button class="search__btn" type="submit">
+                <span class="search__btn-text">Search</span>
+                <svg class="search__icon">
+                    <use href="./img/svg-sprite.svg#search"></use>
+                </svg>
+            </button>
+        </form>
+        <a class="header__scroll" href="#">
+            <span>Scroll Down</span>
+            <!--made icon as svg because it's clickable-->
+            <img class="header__scroll-icon" src="./img/scroll.svg" alt="arrow to down">
+        </a>
+    </header>
+    <main>
+        <nav class="nav-panel block">
+            <!-- have to leave it here in main container if position stiky will be applied -->
+            <input type="checkbox" class="nav-panel__burger-check" name="nav-panel__burger" id="burger">
+            <label class="nav-panel__burger-icon" for="burger"></label>
+            <ul class="nav-panel__nav-list nav-list">
+                <li class="nav-list__item"><a class="nav-list__link" href="#">Who we are</a></li>
+                <li class="nav-list__item"><a class="nav-list__link" href="#">What we do</a></li>
+                <li class="nav-list__item"><a class="nav-list__link" href="#">Travel with us</a></li>
+                <li class="nav-list__item"><a class="nav-list__link" href="#">Contact us</a></li>
+            </ul>
+            <p class="nav-panel__logo">Travel Company</p>
+        </nav>
+        <section class="why-us block">
+            <div class="why-us__info">
+                <h2 class="why-us__title">Why Choose Us</h2>
+                <p class="why-us__text">Tion and dislike men who are so beguiled and demoralized by desire by the
+                    charms of pleasure
+                    of the moment, so blinded
+                    by desire, that they cannot foresee </p>
+                <p class="why-us__text">Ddislike men who are so beguiled and demoralized by the
+                    charms of pleasure of the
+                    moment, so blinded by desire, that.</p>
+                <a class="why-us__btn">Explore Places</a>
+            </div>
+            <div class="why-us__img-wrapper">
+                <img class="why-us__image" src="./img/desctop/why-us-img1.png" alt="stone house on the river in woods">
+                <img class="why-us__image" src="./img/desctop/why-us-img2.png" alt="girl on a rock in mountains">
+            </div>
+        </section>
+        <section class="steps block">
+            <div class="steps__item">
+                <svg class="steps__icon">
+                    <use href="./img/svg-sprite.svg#search"></use>
+                </svg>
+                <span class="steps__text">Search Places</span>
+            </div>
+            <div class="steps__item">
+                <svg class="steps__icon">
+                    <use href="./img/svg-sprite.svg#check"></use>
+                </svg>
+                <span class="steps__text">Select Places</span>
+            </div>
+            <div class="steps__item">
+                <svg class="steps__icon">
+                    <use href="./img/svg-sprite.svg#like"></use>
+                </svg>
+                <span class="steps__text">Book & Enjoy</span>
+            </div>
+
+        </section>
+        <section class="destination destination--left block">
+            <div class="destination__info info">
+                <span class="info__country">Spain</span>
+                <h3 class="info__place">Grand Spain Madrid</h3>
+                <p class="info__description">But I must explain to you how all this mistaken idea of account to
+                    denouncing pleasure and praising pain was account
+                    born and I account will give you a complete account of the system</p>
+                <a class="info__btn">Book now</a>
+            </div>
+        </section>
+        <section class="destination destination--right block">
+            <div class="destination__info info">
+                <span class="info__country">Spain</span>
+                <h3 class="info__place">Grand Spain Madrid</h3>
+                <p class="info__description">But I must explain to you how all this mistaken idea of account to
+                    denouncing pleasure and praising pain was account
+                    born and I account will give you a complete account of the system</p>
+                <a class="info__btn">Book now</a>
+            </div>
+        </section>
+        <section class="testimonial block">
+            <h2 class="testimonial__title">What Our Tourist Say</h2>
+            <div class="testimonial__item testimonial-item">
+                <div class="testimonial-item__img-wrapper">
+                    <picture>
+                        <source media="(min-width: 576px)" srcset="./img/desctop/testimonial-img-xl.png">
+                        <source media="(max-width: 575.98px)" srcset="./img/mobile/testimonial-img-xs.png">
+                        <img class="testimonial-item__img" src="./img/desctop/testimonial-img-xl.png"
+                            alt="man with backpack in mountains">
+                    </picture>
+                </div>
+                <div class="testimonial-item__info testimonial-info">
+                    <span class="testimonial-info__author">Sam Sumon</span>
+                    <p class="testimonial-info__text">
+                        But I must explain to you how all this mistaken idea of account
+                        to
+                        denouncinpleasure and praising pain But I must
+                        explain to you how all this mistaken idea of account to nai denouncing pleasure and praising
+                        pain was account born and I
+                        account will give you a complete account of the system was account born and I account will give
+                        you a nai the complete
+                        account of the system
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer block">
+        <div class="footer__logo logo logo--footer">
+            <div class="logo__title logo__title--footer">bhromaon</div>
+            <div class="logo__slogan logo__slogan--footer">
+                Safe travel anywhere
+            </div>
+        </div>
+        <div class="footer__social social">
+            <a href="#" class="social__item"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social__item"><i class="social__item fab fa-twitter"></i></a>
+            <a href="#" class="social__item"><i class="social__item fab fa-linkedin-in"></i></a>
+            <a href="#" class="social__item"><i class="social__item fab fa-youtube"></i></a>
+            <a href="#" class="social__item"><i class="social__item fab fa-pinterest"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

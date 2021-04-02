@@ -1,0 +1,5 @@
+ <?xml-stylesheet type="text/css" href="../style.css"?>
+ <svg class="header__scroll-icon" version="1.1" viewBox="0 0 15 8" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path d="M0,0 7.5,7.5 15,0" fill="none" stroke="#fff"></path>
+            </svg>

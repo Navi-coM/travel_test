@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Aleo";
+  src: local("AleoRegular"), local("Aleo-Regular"),
+    url(../fonts/Aleo-Regular.oft) format("oft"),
+    url(../fonts/aleo-regular.eot) format("eot"),
+    url(../fonts/aleo-regular.svg#aleoregular) format("svg"),
+    url(../fonts/aleo-regular.woff) format("woff"),
+    url(../fonts/aleo-regular.woff2) format("woff2"),
+    url(../fonts/aleo-regular.ttf) format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JosefinSans";
+  src: local("JosefinSans Regular"), local("Josefin-Sans-Regular"),
+    local("JosefinSans-Regular"),
+    url(../fonts/josefin-sans-regular.oft) format("oft"),
+    url(../fonts/josefin-sans-regular.eot) format("eot"),
+    url(../fonts/josefin-sans-regular.svg#JosefinSans) format("svg"),
+    url(../fonts/josefin-sans-regular.woff) format("woff"),
+    url(../fonts/josefin-sans-regular.woff2) format("woff2"),
+    url(../fonts/josefin-sans-regular.ttf) format("ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JosefinSans-Bold";
+  src: local("JosefinSans Bold"), local("Josefin-Sans-Bold"),
+    local("JosefinSans-Bold"), url(../fonts/josefin-sans-bold.oft) format("oft"),
+    url(../fonts/josefin-sans-bold.eot) format("eot"),
+    url(../fonts/josefin-sans-bold.svg#JosefinSans) format("svg"),
+    url(../fonts/josefin-sans-bold.woff) format("woff"),
+    url(../fonts/josefin-sans-bold.woff2) format("woff2"),
+    url(../fonts/josefin-sans-bold.ttf) format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JosefinSans-Light";
+  src: local("JosefinSans Light"), local("Josefin-Sans-Light"),
+    local("JosefinSans-Light"),
+    url(../fonts/josefin-sans-light.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
